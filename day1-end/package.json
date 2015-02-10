@@ -1,0 +1,14 @@
+{
+  "name": "workshop-end-result",
+  "version": "1.0.0",
+  "description": "Workshop - end of day1",
+  "main": "angular.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Alves <databentpx@gmail.com> (http://www.github.com/joedotjs)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}
