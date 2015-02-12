@@ -17,6 +17,7 @@ app.get('/', function (req, res) {
 
 app.get('/cards', function (req, res) {
 
+	// check out http://expressjs.com/api.html#req.query for more information on req.query
     var modelParams = req.query.category ? { category: req.query.category } : {};
 
     FlashCardModel.find(modelParams, function (err, cards) {
